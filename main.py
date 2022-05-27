@@ -23,6 +23,9 @@ dict_translator_for_no_under_char = {
     "EFR":"이까", # 존칭형 종결 어미
 }
 
+bible_name=["마가복음", "누가복음", "요한복음", "마태복음", "사도행전"]
+
+
 header = ["예수께서 자리에서 일어나 가라사대, ", "예수께서 무리를 보시고 산에 올라가 앉으시니 제자들이 나아온지라. 입을 열어 가르쳐 가라사대 ", "예수께서 무리를 흩어 보내시고 배에 오르사 이르되, ",
          "예수께서 한 어린 아이를 불러 저희 가운데 세우시고 가라사대 ",
          "이에 예수께서 무리와 제자들에게 말씀하여 가라사대"]
@@ -92,3 +95,4 @@ if __name__ == '__main__':
 
 
     print(translated_text)
+    print(bible_name[random.randint(0,4)] +" "+ str(random.randint(1,50))+ ":"+str(random.randint(1,72)))
